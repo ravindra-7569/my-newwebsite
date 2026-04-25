@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+}
+
+/* Navigation */
+.nav {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:focus {
+  outline: 3px solid orange;
+}
+
+/* Skip link */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: black;
+  color: white;
+  padding: 8px;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* Contrast examples */
+.bad-contrast {
+  color: lightgray;
+  background: white;
+  padding: 10px;
+}
+
+.good-contrast {
+  color: black;
+  background: white;
+  padding: 10px;
+}
+
+/* Dark mode */
+.dark {
+  background: #111;
+  color: #eee;
+}
