@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Examples</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <ul class="nav">
+      <li><a href="index.html">Homepage</a></li>
+      <li><a href="wcag.html">WCAG Guidelines</a></li>
+      <li><a href="examples.html">My Examples</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <h1>My Examples</h1>
+  <p>Currently no examples available.</p>
+</main>
+
+</body>
+</html>
