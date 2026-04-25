@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WCAG Guidelines</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header>
+  <nav aria-label="Main navigation">
+    <ul class="nav">
+      <li><a href="index.html">Homepage</a></li>
+      <li><a href="wcag.html">WCAG Guidelines</a></li>
+      <li><a href="examples.html">My Examples</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+  <h1>WCAG 2.2 Guidelines</h1>
+
+  <section>
+    <h2>Perceivable</h2>
+    <p>Content must be visible and readable.</p>
+    <a href="example-contrast.html">Test: Color Contrast Example</a>
+  </section>
+
+  <section>
+    <h2>Operable</h2>
+    <p>Users must be able to navigate using keyboard or assistive tools.</p>
+    <a href="example-keyboard.html">Test: Keyboard Navigation</a>
+  </section>
+
+  <section>
+    <h2>Understandable</h2>
+    <p>Content should be easy to read and understand.</p>
+    <p>No example yet.</p>
+  </section>
+
+  <section>
+    <h2>Robust</h2>
+    <p>Works across browsers and assistive technologies.</p>
+    <p>No example yet.</p>
+  </section>
+
+</main>
+
+</body>
+</html>
