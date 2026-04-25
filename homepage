@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Accessibility Website</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header>
+  <nav aria-label="Main navigation">
+    <ul class="nav">
+      <li><a href="index.html">Homepage</a></li>
+      <li><a href="wcag.html">WCAG Guidelines</a></li>
+      <li><a href="examples.html">My Examples</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+  <h1>Accessibility Overview</h1>
+
+  <p>
+    Web accessibility ensures websites are usable by everyone, including people with disabilities.
+  </p>
+
+  <h2>When did accessibility start?</h2>
+  <p>
+    Accessibility began evolving in the late 1990s when the W3C introduced WCAG guidelines.
+  </p>
+
+  <h2>How is it evolving?</h2>
+  <p>
+    Today, WCAG 2.2 focuses on mobile usability, cognitive accessibility, and better interaction design.
+  </p>
+
+  <button onclick="toggleTheme()">Toggle Dark Mode</button>
+
+</main>
+
+</body>
+</html>
