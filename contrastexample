@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contrast Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <a href="wcag.html">← Back</a>
+  </nav>
+</header>
+
+<main>
+  <h1>Color Contrast Example</h1>
+
+  <p class="bad-contrast">Low contrast text (hard to read)</p>
+  <p class="good-contrast">High contrast text (easy to read)</p>
+
+</main>
+
+</body>
+</html>
